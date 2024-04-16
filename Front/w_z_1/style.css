@@ -1,0 +1,41 @@
+#fon{
+	background-color:#84e983;
+	font-family: 'Comic sans MS';
+}
+H1{
+	text-align: center;
+}
+#op{
+	  display: grid;
+  place-items: center;
+	position: relative;
+	z-index:3;
+	top:-315px;
+}
+#kot{
+	max-height: 250px;
+	max-width: 2500px;
+	border-radius: 400px;
+}
+#pAA{
+	color:#84e983;
+	font-size: 20px;
+}
+#b1{
+  display: grid;
+  place-items: center;
+  	position: relative;
+	z-index:1;
+} 
+#fact{
+  display: grid;
+  place-items: center;
+  color:#ffffff;
+}
+p{
+	font-size:40px;
+	font-style: italic;
+}
+A{
+	font-size: 20px;
+}
