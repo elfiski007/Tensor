@@ -25,7 +25,7 @@ return(
 <div>
     <ul>
         {FilteredData.map((d) => (
-        <div id = "poisk" key={d.nazvanie}>{d.nazvanie + " " + d.opis}</div>
+        <div className = "poisk" key={d.nazvanie}>{d.nazvanie + " " + d.opis}</div>
         ))}
     </ul>
  </div>

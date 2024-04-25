@@ -3,7 +3,6 @@ import '../App.js';
 import Logo from '../images/logo.png'
 import Search from '../images/search.png'
 import Profil from '../images/profil.png'
-import Sea from './Search.js'
 
 let Header = () => {
     return(
@@ -16,7 +15,6 @@ let Header = () => {
                     <ul className ="options">
                     </ul>
                 </form>
-                <Sea />
             </div>
               <div className="film">
                 Фильмы
