@@ -59,3 +59,9 @@
 #h{
   grid-area: h;
 }
+/*Search.js*/
+#poisk{
+  min-width: 500px;
+  margin-top: 50px;
+
+}

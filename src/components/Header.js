@@ -14,7 +14,6 @@ let Header = () => {
                 <form className = "form"> 
                     <input type="text" id = "sch" placeholder="введите название..." name = "s"/>
                     <ul className ="options">
-                        <li>Фильм</li>
                     </ul>
                 </form>
                 <Sea />
