@@ -1,9 +1,9 @@
 import React from 'react';
-import '../App.js';
+import App from '../App.js';
 import Logo from '../images/logo.png'
 import Search from '../images/search.png'
 import Profil from '../images/profil.png'
-
+import Acc from './acc.html'
 let Header = () => {
     return(
         <header id='h'>
@@ -23,7 +23,7 @@ let Header = () => {
                 Сериалы
               </div>
               <div className="logotip">
-                <img src = {Logo}></img>
+                <a href = "App"><img src = {Logo}></img></a>
               </div>
               <div className="animationseries">
                 Мультсериалы
@@ -31,10 +31,10 @@ let Header = () => {
                 <div className="animationfilms">
                 Мультфильмы
               </div>
-              <div className="profil">
+              <a href = {Acc} className="profil">
               <img src = {Profil}></img>
                 Войти
-              </div>
+              </a>
             </div>
             </header>
     );
