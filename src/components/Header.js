@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../App.js';
 import Logo from '../images/logo.png'
 import Search from '../images/search.png'
